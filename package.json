@@ -1,0 +1,7 @@
+{
+  "name": "PureNodeWebApp",
+  "version": "0.0.1",
+  "dependencies": {
+    "mime": "^1.2.11"
+  }
+}
