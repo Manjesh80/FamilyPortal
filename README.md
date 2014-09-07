@@ -1,18 +1,60 @@
 ## Synopsis
 
-Personal project to learn Node.js. 
+Personal project to learn Node.js. Here are the broad requirements of the project.
+
+1. Shared calendar 
+..* Ability to add appointments for each person
+..* View schedule by month, week, day
+..* Fitter schedule by person
+..* Reminder email / SMS
+
+2. Lists
+..* Add different lists
+..* Add items to each list
+..* Tick off items from list. Should be reflected instantly in all open instances
+
+3. Photos
+..* Add albums
+..* Add photos to albums
+..* Add notes to photos
+
+4. Chat
+..* Notification when someone logs in
+..* Create a chat room
+..* Allow owner of chat room to add more logged in users
+..* Save chat transcript
+..* Authentication & Authorization.
+..* Authenticate users to access the applications (3rd party oAuth)?
+..* Authorization levels can be set up which allow access to view, add, update or delete resources.
+
+5. Admin functionality
+..* Look and feel modifications
+..* Add / edit users and access roles
+
+6. Responsive
+..* should work in mobile, tablets and desktop.
+..* specific views for each display size (to be detailed)
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+I'm using this project to learn how to create a web application using Node.js. Another ulterior motive is to try out the different Node.js frameworks out there (No Framework, Express, Sails, Hapi, Kraken, etc.) and also front end frameworks (angular.js, ember.js, react / flux, backbone)
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+Clone the project 
+
+``` git clone https://github.com/prabinv/FamilyPortal/ FamilyPortal```
+
+or fork the project
+
+Run ```npm install```
+
+Run ```node server.js```
+
+and open http://localhost:3000 in your browser. 
 
 ## API Reference
 
