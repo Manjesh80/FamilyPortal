@@ -1,18 +1,20 @@
 <!doctype html>
-<html ng-app="firstApp">
+<html ng-app="myFamilyApp">
   <head>
-    <title>First AngularJS App</title>
+    <title>My Family</title>
   </head>
   <body>
-    <div ng-controller="FirstController">
-      <span>Name:</span>
-      <input type="text" ng-model="first">
-      <input type="text" ng-model="last">
-      <button ng-click='updateMessage()'>Message</button>
+    <div ng-controller="HomeController">
+      <span>Username:</span>
+      <input type="text" ng-model="username">
+      <br/>
+      <span>Password:</span>
+      <input type="password" ng-model="password">
+      <button ng-click='updateMessage()'>Login</button>
       <hr>
-      {{heading + message}}
+      {{message}}
     </div>
     <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
-    <script src="/js/first.js"></script>
+    <script src="/scripts/home.js"></script>
   </body>
 </html>
